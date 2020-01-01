@@ -11,5 +11,5 @@ user_input = gets.strip
 input_to_index(user_input)
 
 board = [" "," "," "," "," "," "," "," "," "]
-index = 
+index = input
 display_board(board, index, value = "X")
