@@ -4,13 +4,15 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
+board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
-display_board
+display_board(board)
 puts "Where would you like to go?"
 user_input = gets.strip
 
 input_to_index(user_input)
 
-board = [" "," "," "," "," "," "," "," "," "]
 index = $stdout
 display_board(board, index, value = "X")
+
+display_board(board)
